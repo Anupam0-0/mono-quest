@@ -1,0 +1,29 @@
+{
+  "name": "dsa-question-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "chalk": "^5.4.1",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.5.0",
+    "inquirer": "^12.6.1",
+    "openai": "^4.102.0",
+    "pdfkit": "^0.17.1",
+    "puppeteer": "^24.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "@types/pdfkit": "^0.13.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
